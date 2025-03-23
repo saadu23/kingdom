@@ -1,0 +1,115 @@
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #b39513;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+        }
+        .nav {
+            display: flex;
+            background-color: #0b5f00;
+            padding: 10px;
+            justify-content: space-around;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .nav a:hover {
+            background-color: #575757;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 120px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .image {
+            width: 490px;
+            height: 735px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: black;
+            margin-right: 20px;
+        }
+        .article {
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Wildlife Sanctuary</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Get Involved</a>
+        <div class="dropdown">
+            <a href="#">Animals &#9662;</a>
+            <div class="dropdown-content">
+                <a href="cheetah.hmtl.html">Cheetah</a>
+                <a href="elephant.html">Elephant</a>
+                <a href="Warthog.html">Warthog</a>
+                <a href="wbgab.html">White bellied go away bird</a>
+                <a href="jackal.html">Jackal</a>
+                <a href="hyena.html">Hyena</a>
+                <a href="dikdik.html">Dikdik</a>
+                <a href="bef.html">bat-eared fox</a>
+               </div>
+        </div>
+    </div>
+<div class="container
+    </div>
+
+    <div class="footer">
+        <p>Your details</p>
+    </div>

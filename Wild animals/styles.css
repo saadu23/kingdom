@@ -1,0 +1,21 @@
+.animal-container {
+  display: flex; /* Arrange items side by side */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Space between image and text */
+  margin: 20px;
+}
+
+.animal-container img {
+  width: 250px; /* Adjust size */
+  height: auto;
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.animal-info {
+  color: #ddd;
+  max-width: 500px; /* Prevent text from stretching too much */
+}
+
+.animal-info h2 {
+  color: #FFD700; /* Gold title */
+}
